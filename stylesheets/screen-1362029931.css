@@ -1,0 +1,386 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, font, img, ins, kbd, q, s, samp,
+small, strike, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  font-family: inherit;
+  vertical-align: baseline; }
+
+*:focus {
+  outline: 0; }
+
+ol, ul {
+  list-style: none; }
+
+p {
+  margin: 7.5px 0; }
+
+caption, th, td {
+  text-align: left;
+  font-weight: normal; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: ""; }
+
+blockquote, q {
+  border-left: 2px solid;
+  font-style: italic;
+  padding-left: 15px; }
+
+.wrapper:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0; }
+
+.wrapper {
+  display: inline-block; }
+
+html[xmlns] .wrapper {
+  display: block; }
+
+* html .wrapper {
+  height: 1%; }
+
+body {
+  background: #333339;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  line-height: 125%; }
+
+#container {
+  margin: 0 auto;
+  width: 960px; }
+
+#header {
+  background: url("../images/header-bg.jpg") no-repeat #000009; }
+
+#header .inner_content {
+  padding: 13px 10px 0; }
+
+#title {
+  float: left; }
+
+#title a {
+  background: url("../images/clandestine-logo.png") no-repeat;
+  display: block;
+  text-indent: -9999px;
+  height: 78px;
+  width: 424px; }
+
+#tagline {
+  background: url("../images/new-movie-by.png") no-repeat;
+  float: right;
+  height: 42px;
+  margin-top: 12px;
+  text-indent: -9999px;
+  width: 472px; }
+
+#main_menu {
+  list-style-type: none;
+  float: right; }
+
+#main_menu li {
+  float: left;
+  margin-left: 29px; }
+
+#main_menu li a {
+  border-bottom: solid 2px #000009;
+  display: block;
+  height: 26px;
+  text-indent: -9999px; }
+
+#main_menu li a:hover, #main_menu li a.selected {
+  border-bottom: solid 2px #fffff9; }
+
+#the_film_link {
+  background: url("../images/main-menu-sprite.png") no-repeat 0 0;
+  width: 64px; }
+
+#screenings_link {
+  background: url("../images/main-menu-sprite.png") no-repeat -100px 0;
+  width: 80px; }
+
+#press_link {
+  background: url("../images/main-menu-sprite.png") no-repeat -216px 0;
+  width: 38px; }
+
+#blog_link {
+  background: url("../images/main-menu-sprite.png") no-repeat -290px 0;
+  width: 31px; }
+
+.site_content .main_content_left {
+  float: left;
+  width: 640px; }
+  .site_content .main_content_left .inner_content {
+    padding: 0 10px; }
+.site_content .side_bar_right {
+  float: right;
+  width: 320px; }
+.site_content .side_bar_right .inner_content {
+  padding: 0 10px; }
+.site_content .main_content_right, .site_content .main_content_right_narrow {
+  float: right;
+  width: 640px; }
+.site_content .main_content_right .inner_content, .site_content .main_content_right_narrow .inner_content {
+  padding: 0 10px; }
+.site_content .side_bar_left, .site_content .side_bar_left_wide {
+  float: left;
+  width: 320px; }
+.site_content .side_bar_left .inner_content, .site_content .side_bar_left_wide .inner_content {
+  padding: 0 10px; }
+.site_content .main_content_right_narrow {
+  width: 560px; }
+.site_content .side_bar_left_wide {
+  width: 400px; }
+.site_content .interested {
+  float: right;
+  font-size: 16px;
+  line-height: 115%;
+  margin: 25px 0;
+  text-align: center;
+  width: 540px; }
+
+#footer {
+  color: #aaaaaa;
+  margin-top: 10px;
+  padding: 10px;
+  text-align: center; }
+
+#footer a {
+  color: #aaaaaa; }
+
+#footer a:hover {
+  color: #f0f0f0; }
+
+#footer ul {
+  list-style-type: none;
+  margin: auto auto 10px;
+  width: 700px; }
+
+#footer ul li {
+  display: inline;
+  margin-right: 25px; }
+
+a {
+  color: #fffff9;
+  text-decoration: underline;
+  hover-color: #ccccc9; }
+
+.site_content {
+  background: #000009; }
+  .site_content h2 {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 2px 0; }
+  .site_content .description {
+    color: #ccccc9;
+    font-size: 12px;
+    line-height: 125%; }
+
+#pages_domain #contact_us_home {
+  line-height: 115%;
+  text-align: center; }
+#pages_domain #gideon_vcard {
+  float: left;
+  margin-top: 5px; }
+#pages_domain #marcus_vcard {
+  float: right;
+  margin-top: 5px; }
+#pages_domain #synopsis {
+  font-size: 13px;
+  line-height: 125%;
+  padding: 20px 10px; }
+#pages_domain .movie {
+  margin-bottom: 10px; }
+#pages_domain #announcements {
+  height: 107px;
+  margin-bottom: 25px; }
+#pages_domain #announcements img {
+  float: left; }
+#pages_domain #announcements .headline {
+  color: #fffff9;
+  font-size: 16px;
+  line-height: 125%;
+  padding-top: 24px;
+  text-align: center; }
+#pages_domain #announcements .headline a {
+  color: inherit;
+  text-decoration: none; }
+#pages_domain #announcements .headline span {
+  display: block; }
+#pages_domain #announcements .headline .span_two {
+  color: #ccccc9; }
+#pages_domain #announcements .headline .span_three {
+  font-size: 18px; }
+
+#festivals {
+  background: #000009;
+  padding: 15px 0;
+  text-align: center;
+  width: 100%; }
+
+#festivals ul {
+  padding: 0; }
+
+#festivals ul li {
+  display: inline;
+  margin: 5px 20px; }
+
+#screenings_domain .event {
+  background: url("../images/viewmaster-tray.jpg") top left no-repeat;
+  padding-left: 90px;
+  margin-bottom: 30px; }
+#screenings_domain .event_screenings {
+  margin: 20px 0; }
+#screenings_domain .screening {
+  font-size: 16px;
+  line-height: 115%;
+  margin-bottom: 10px;
+  padding-left: 25px; }
+
+#articles_domain .article {
+  margin-bottom: 25px; }
+
+#posts_domain .labels {
+  font-size: 16px;
+  padding-top: 2px;
+  text-align: right; }
+#posts_domain .labels a {
+  text-decoration: none; }
+#posts_domain .post {
+  font-size: 14px;
+  color: #eeeee9;
+  line-height: 125%;
+  margin-bottom: 30px;
+  padding: 25px 10px;
+  border-bottom: solid 1px #aaaaa9; }
+#posts_domain .post h2 {
+  font-family: Futura, Helvetica, Arial;
+  font-size: 16px;
+  margin-bottom: 5px; }
+#posts_domain .post h2 a {
+  text-decoration: none; }
+#posts_domain .post p {
+  margin-bottom: 5px;
+  text-align: justify; }
+#posts_domain .post .video, #posts_domain .post .photo {
+  text-align: center; }
+#posts_domain .post .caption {
+  background-color: #4c4c49;
+  color: #ccccc9;
+  margin: 15px auto 5px;
+  padding: 15px;
+  text-align: left;
+  width: 500px; }
+#posts_domain .post ul {
+  padding-left: 25px; }
+#posts_domain .post li {
+  list-style-type: circle; }
+#posts_domain .pagination {
+  height: 30px;
+  margin-bottom: 15px;
+  text-align: center; }
+#posts_domain .pagination a {
+  background: #444444;
+  margin: 0 5px;
+  padding: 10px;
+  text-decoration: underline; }
+#posts_domain .pagination a:hover {
+  background: #666666; }
+#posts_domain #rss {
+  float: right; }
+
+#film_section_domain .side_bar_left {
+  margin-top: 25px;
+  width: 220px; }
+  #film_section_domain .side_bar_left ul {
+    font-size: 14px; }
+    #film_section_domain .side_bar_left ul li {
+      margin-bottom: 15px; }
+      #film_section_domain .side_bar_left ul li > ul {
+        font-size: 12px;
+        padding-left: 15px;
+        list-style-type: disc; }
+        #film_section_domain .side_bar_left ul li > ul li {
+          margin: 2px 0; }
+#film_section_domain .main_content_right {
+  width: 740px; }
+  #film_section_domain .main_content_right a {
+    color: #292b34; }
+  #film_section_domain .main_content_right h2 {
+    font-size: 16px; }
+  #film_section_domain .main_content_right h3 {
+    font-weight: bold;
+    font-size: 15px; }
+  #film_section_domain .main_content_right .the_film_top, #film_section_domain .main_content_right .the_film_bottom {
+    height: 40px;
+    width: 100%; }
+  #film_section_domain .main_content_right .the_film_top {
+    background: url("../images/film-section-top.png") no-repeat bottom; }
+  #film_section_domain .main_content_right .the_film_bottom {
+    background: url("../images/film-section-bottom.png") no-repeat top; }
+  #film_section_domain .main_content_right .the_film {
+    background: url("../images/BP-27-back-740.jpg") repeat-y;
+    color: #393b44;
+    font-family: "Georgia", "Times New Roman", Times, serif;
+    font-size: 15px;
+    line-height: 150%;
+    padding: 1px 25px; }
+    #film_section_domain .main_content_right .the_film p {
+      margin-bottom: 15px; }
+#film_section_domain #film_and_production_stills_section img {
+  width: 668px;
+  border: 1px solid #393b44; }
+#film_section_domain #credits_section {
+  line-height: 135%; }
+  #film_section_domain #credits_section h3 {
+    margin: 5px 0;
+    text-transform: uppercase;
+    font-weight: normal;
+    border-bottom: solid 1px #494b54; }
+  #film_section_domain #credits_section dt {
+    text-transform: uppercase;
+    font-size: 12px;
+    color: #494b54; }
+  #film_section_domain #credits_section dd {
+    margin-bottom: 15px; }
+    #film_section_domain #credits_section dd p {
+      margin: 0; }
+  #film_section_domain #credits_section dl.sub_credits {
+    padding-left: 15px; }
+#film_section_domain #dead_drop_section a.download_button {
+  display: block;
+  width: 231px;
+  height: 173px;
+  text-indent: -9999px; }
+#film_section_domain #dead_drop_section h3 span {
+  font-weight: normal;
+  font-size: 10px; }
+#film_section_domain #dead_drop_section .download_info {
+  font-size: 12px;
+  color: #666666;
+  line-height: 125%; }
+#film_section_domain #dead_drop_section .download_option {
+  width: 231px;
+  float: left;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-right: 50px; }
+#film_section_domain #dead_drop_section a#download_film {
+  background: url("../images/clandestine-play-download.png") no-repeat center; }
+#film_section_domain #dead_drop_section a#download_dvd {
+  background: url("../images/Clandestine-DVD-Product-Shot.png") no-repeat center; }

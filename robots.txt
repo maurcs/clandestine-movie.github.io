@@ -1,0 +1,13 @@
+# See http://www.robotstxt.org/wc/norobots.html for documentation on how to use the robots.txt file
+#
+# To ban all spiders from the entire site uncomment the next two lines:
+# User-Agent: *
+# Disallow: /
+
+User-Agent: *
+Disallow: /achtung_ciphering_system
+Disallow: /achtung_ciphering_system/
+Disallow: /the-film/dead_drop
+Disallow: /the-film/dead_drop/
+
+Sitemap: http://www.clandestine-movie.com/sitemap_index.xml.gz
